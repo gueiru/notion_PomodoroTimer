@@ -18,27 +18,27 @@ button,
 button:active {
   background-color: #DADADA;
   border: none;
-  width: 42px;
-  height: 40px;
+  width: 32px;
+  height: 30px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em #838383;
-  -webkit-box-shadow: 0.2em 0.2em #838383;
-  -moz-box-shadow: 0.2em 0.2em #838383;
+  box-shadow: 0.1m 0.1em #838383;
+  -webkit-box-shadow: 0.1em 0.1em #838383;
+  -moz-box-shadow: 0.1em 0.1em #838383;
 }
 
 button:focus {
-  translate: 0.2em 0.2em;
+  translate: 0.1em 0.1em;
   box-shadow: 0.2em 0.2em #DADADA inset;
-  -webkit-box-shadow: 0.2em 0.2em #DADADA inset;
-  -moz-box-shadow: 0.2em 0.2em #DADADA inset;
+  -webkit-box-shadow: 0.1em 0.1em #DADADA inset;
+  -moz-box-shadow: 0.1em 0.1em #DADADA inset;
 }
 
 /* Clock Body */
 
 .clock-container {
   background-color: #FFFFFF; 
-  width: 350px;
+  width: 200px;
   border-radius: 20px;
   padding: 30px;
   box-shadow: 10px 10px #838383 sienna;
@@ -47,11 +47,11 @@ button:focus {
 /* Display + Stop/Start/Reset Controls */
 
 #time-left {
-  font-size: 70px;
+  font-size: 20px;
   text-align: center;
   background-color: #E4E4E4;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 5px;
+  border-radius: 10px;
   box-shadow: 3px 3px #838383 inset;
 }
 
@@ -60,32 +60,34 @@ button:focus {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #timer-label {
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   padding-top: 2px;
   background-color: #E4E4E4;
   border-radius: 10px;
-  height: 40px;
+  height: 20px;
   flex: 2;
-  box-shadow: 3px 3px #838383 inset;
+  box-shadow: 2px 2px #838383 inset;
 }
 
 #timer-ssr {
   flex: 1;
-  margin-left: 30px;
+  margin-left: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-start: end;
+  gap: 10px;
 }
 
 /* Timer Length Controls */
 
 .length-container {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
 }
@@ -95,8 +97,8 @@ button:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 140px;
-  height:60px;
+  width: 100%;
+  height:30px;
 }
 
 .break-container, 
@@ -106,7 +108,7 @@ button:focus {
   border: 2px solid #838383;
   padding: 10px;
   border-radius: 10px;
-  width: 48%;
+  width: 35%;
 }
 
 .timer-length {
